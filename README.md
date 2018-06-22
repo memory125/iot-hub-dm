@@ -8,7 +8,7 @@ Azure iot hub device management samples.
 >* Create IoT Hub service. 
 >* Add IoT device based on the IoT Hub created above.
 >* Replace the connection string in App.java separately for simulated-device and trigger-reboot.
-    <br/>[!Note]
+    <br/> `Note`
     <br/> `iotHubConnectionString is iot hub connection string.`
     <br/> `connString is your device connection string.`
 >* Compile the project via below command.
@@ -27,7 +27,7 @@ Azure iot hub device management samples.
 >* Create IoT Hub service. 
 >* Add IoT device based on the IoT Hub created above.
 >* Replace the connection string in App.java separately for simulated-device and trigger-reboot.
-    <br/> [!Note]
+    <br/> `Note`
     <br/> `connectionString in service.js is iot hub connection string.`
     <br/> `ConnectionString in device.js is your device connection string.`
 >* Compile & run the project via below command.
