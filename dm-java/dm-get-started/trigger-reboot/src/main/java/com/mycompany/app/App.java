@@ -17,8 +17,8 @@ import java.util.concurrent.ExecutorService;
  */
 public class App 
 {
-    public static final String iotHubConnectionString = "HostName=iotlabshenzhen-de-test.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=1Tuq9bnVJR+3ApPWz+ntMyOyUenMS6vDhiwpKu0HPMk=";
-    public static final String deviceId = "myTestDevice";
+    public static final String iotHubConnectionString = "{your connection string here}";
+    public static final String deviceId = "{your device id here}}";
 
     private static final String methodName = "reboot";
     private static final Long responseTimeout = TimeUnit.SECONDS.toSeconds(30);

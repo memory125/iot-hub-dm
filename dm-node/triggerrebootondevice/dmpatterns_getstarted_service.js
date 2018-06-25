@@ -3,10 +3,10 @@
 var Registry = require('azure-iothub').Registry;
 var Client = require('azure-iothub').Client;
 
-var connectionString = 'HostName=iotlabshenzhen-de-test.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=1Tuq9bnVJR+3ApPWz+ntMyOyUenMS6vDhiwpKu0HPMk=';
+var connectionString = '{your iot hub connection string here}';
 var registry = Registry.fromConnectionString(connectionString);
 var client = Client.fromConnectionString(connectionString);
-var deviceToReboot = 'myTestDevice';
+var deviceToReboot = '{your device id here}';
 
 var startRebootDevice = function(twin) {
 

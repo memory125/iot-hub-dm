@@ -19,7 +19,7 @@ public class App
     private static final int METHOD_NOT_DEFINED = 404;
 
     private static IotHubClientProtocol protocol = IotHubClientProtocol.MQTT;
-    private static String connString = "HostName=iotlabshenzhen-de-test.azure-devices.net;DeviceId=myTestDevice;SharedAccessKey=KZruiUwQGN+4wSB7ysZerxX9mX3XiCHuvTsF+6lNZNM=";
+    private static String connString = "{your connection string here}";
     private static DeviceClient client;
 
     protected static class DirectMethodStatusCallback implements IotHubEventCallback
